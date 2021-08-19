@@ -14,7 +14,7 @@ Only that friend and you will be able to read the message even though others are
 
 To see how to use me press 'How to Use' below.
 
-By @StarkBots
+By @callme_pro
     """
 
     # Home Button
@@ -31,30 +31,24 @@ By @StarkBots
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton("🎪 About 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
+        [InlineKeyboardButton("🌟ANIME FANS CLUB🌟", url="https://t.me/animefansclubchat")],
+        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/animefansclubchat")],
     ]
 
     # Help Message
     HELP = """
 Just type the message in below format in any chat.
 
-`@WhisperStarkBot your_message friend_username/id`
+`@prowsprbot your_message friend_username/id`
     """
 
     # About Message
     ABOUT = """
 **About This Bot** 
 
-Bot created by @StarkBots
-
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/WhisperBot)
-
-Inspired By : nnbbot
+Bot created by @callme_pro
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
-
-Developer : @StarkProgrammer
     """

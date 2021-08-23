@@ -74,8 +74,14 @@ async def previous_target(sender):
         except KeyError:
             name = first_name
         text1 = f"A whisper message to {name}"
-        text2 = "Only he/she can open it."
-        text2 = "Only he/she can open it."
+        text2 = "Only he/she can open it.
+        "╭━ ♥━ ♥━ ♥━ ♥━
+
+"╰╮┏┳┳┳┓┏┳┳┳┳┓
+
+"┏┻╋╋┻┻┫┣┻╋╋┻┫
+
+"┗ⓞ┻┻━ⓞ┻┻ⓞ┻┻▄ ▄"
         mention = f"[{name}](tg://user?id={receiver})"
         results = [
               InlineQueryResultArticle(

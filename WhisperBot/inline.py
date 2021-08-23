@@ -146,8 +146,8 @@ async def answer(bot: Client, query):
             else:
                 name = target_user.first_name
             text1 = f"A whisper message to {name}"
-            text2 = "Only he/she can open it."
-            text3 = ".  🌞🌞                     
+            text2 = "Only he/she can open it.
+.  🌞🌞                     
 🌞🌹🌞                   
    🌞🌞    🌷🌷
      🌴    🌷🌼🌷
